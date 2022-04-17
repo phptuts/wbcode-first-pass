@@ -16,6 +16,7 @@
   "devDependencies": {
     "@playwright/test": "^1.21.0",
     "@sveltejs/adapter-auto": "next",
+    "@sveltejs/adapter-static": "^1.0.0-next.29",
     "@sveltejs/kit": "next",
     "prettier": "^2.5.1",
     "prettier-plugin-svelte": "^2.5.0",
@@ -25,5 +26,8 @@
     "tslib": "^2.3.1",
     "typescript": "~4.6.2"
   },
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "firebase": "^9.6.11"
+  }
 }
