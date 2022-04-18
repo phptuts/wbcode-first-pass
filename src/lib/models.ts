@@ -13,16 +13,14 @@ export interface Session<T> {
 	is_active: boolean;
 	nickname: string;
 	created_at: T;
-	textVersions: Text<Date>[];
 }
 
 // This represents a teacher
 export interface Teacher<T> {
 	id: string;
-	uuid: string;
+	uid: string;
 	email: string;
-	name: string;
+	name?: string;
 	picturePath?: string;
-	sessions?: Session<Date>[];
 	created_at: T;
 }
